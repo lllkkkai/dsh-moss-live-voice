@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "MOSS-Live 实时语音",
+    "description": "为 DSH 提供实时全双工语音：MOSS-Live 负责听和说，复杂任务交给 DSH 的 Agent 和工具执行。"
+  }
+}

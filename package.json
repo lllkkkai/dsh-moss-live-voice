@@ -1,0 +1,68 @@
+{
+  "name": "dsh-moss-live-voice",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "MOSS-Live realtime voice for DeepSeek Harness (DSH): MOSS listens and speaks, DSH agents run the work.",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "voice",
+    "realtime",
+    "speech",
+    "moss"
+  ],
+  "homepage": "https://github.com/YOUR_GITHUB/dsh-moss-live-voice#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB/dsh-moss-live-voice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB/dsh-moss-live-voice/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0",
+    "node": ">=22.19.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md"
+  ],
+  "icon": "./icon.svg",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "@mossai/mosslive": "0.1.0",
+    "esbuild": "^0.25.0",
+    "ws": "8.21.3"
+  }
+}

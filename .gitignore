@@ -1,0 +1,9 @@
+node_modules/
+*.log
+*.tgz
+.DS_Store
+coverage/
+.plugin-market-cache/
+# Local runtime state this plugin writes
+history.jsonl
+moss-live.key

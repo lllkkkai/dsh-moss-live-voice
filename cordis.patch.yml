@@ -1,0 +1,8 @@
+- insert:
+    - id: moss-live-voice
+      name: 'dsh-moss-live-voice'
+      config:
+        loopbackAudio: true
+        model: moss-live-1.0
+        url: wss://api.mosi.cn/v1/realtime
+        apiKeyEnv: MOSS_API_KEY
