@@ -6,6 +6,10 @@
 > **非官方集成**：本项目与 MOSS、DeepSeek 均无隶属关系，仅调用公开 SDK/接口。
 > 使用需要你自己的 MOSS API Key，费用由 MOSS 结算。
 
+![面板演示：连接、语音转写、后台任务与静音](docs/demo.gif)
+
+<sub>演示使用脚本化数据，界面由插件真实样式表渲染。</sub>
+
 ```
  浏览器语音面  ──WS /moss-live/v1──►  DSH host 插件  ──WSS──►  MOSS-Live
   (麦克风/播放/字幕)                   ├ 转发 PCM / 事件         (ASR · TTS · 轮次 · 打断)
