@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "title": {
+    "en": "MOSS-Live Voice",
+    "zh": "MOSS-Live 语音插件"
+  },
+  "description": {
+    "en": "MOSS-Live realtime voice for DeepSeek Harness",
+    "zh": "给 DeepSeek Harness 加实时全双工语音"
+  },
+  "metadata": {
+    "keywords": [
+      "dsh",
+      "dsh-plugin",
+      "voice",
+      "moss"
+    ]
+  },
+  "plugins": [
+    {
+      "name": "dsh-moss-live-voice",
+      "title": {
+        "en": "MOSS-Live Voice",
+        "zh": "MOSS-Live 实时语音"
+      },
+      "description": {
+        "en": "Realtime full-duplex voice for DSH: MOSS-Live listens and speaks, complex work runs on DSH agents and tools.",
+        "zh": "为 DSH 提供实时全双工语音：MOSS-Live 负责听和说，复杂任务交给 DSH 的 Agent 和工具执行。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik1PU1MtTGl2ZSBWb2ljZSI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMWY2ZmViIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzIyYjhhNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTYiIGZpbGw9InVybCgjZykiLz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMy40IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgPHBhdGggZD0iTTIyIDI2djEyTTMwIDIwdjI0TTM4IDI0djE2TTQ2IDI5djYiLz4KICA8L2c+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjMuNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iMC4yOCIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KPC9zdmc+Cg==",
+      "homepage": "https://github.com/lllkkkai/dsh-moss-live-voice#readme",
+      "repository": {
+        "url": "https://github.com/lllkkkai/dsh-moss-live-voice"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "voice",
+          "realtime",
+          "speech",
+          "moss"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795068801,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/lllkkkai/dsh-moss-live-voice",
+            "commit": "bc9a8605ce5cc9595118e00296263a6aba7fdae9"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
