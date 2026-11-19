@@ -55,6 +55,17 @@ plugin_manager({ action: 'install_bundle', target: '/绝对路径/dsh-moss-live-
 
 > 仓库里已提交预构建的 `index.js`（MOSS SDK 与 `ws` 已内联），**不需要 `npm install`，也不需要 build**。
 
+**1.5（可选）从插件市场安装**
+
+DSH 没有官方市场；本项目自建了一个索引，可在 Discover 里订阅：
+
+1. `Plugins → More（Experimental）` → 打开 `Custom plugin markets`
+2. 在 `Discover` 里添加索引 URL：
+   `https://cdn.jsdelivr.net/gh/lllkkkai/dsh-moss-live-voice@gh-pages/index.json`
+3. 在列表里点安装（等同 `install_bundle`）
+
+索引托管在仓库的 `gh-pages` 分支，由 jsDelivr 提供 HTTPS 地址；更新索引后可能需要等 CDN 缓存刷新。
+
 **2. 填入 API Key**
 
 刷新 DSH 页面 → 左栏底部点「MOSS-Live」→ 右栏面板右上角 ⚙ 设置 → 粘贴 Key → 保存。
