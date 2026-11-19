@@ -38,6 +38,8 @@
     "cordis.patch.yml",
     "locale/*.json",
     "icon.svg",
+    "SECURITY.md",
+    "PROTOCOL.md",
     "LICENSE",
     "THIRD_PARTY_NOTICES.md",
     "README.md"
