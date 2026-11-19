@@ -36,7 +36,7 @@ MOSS 判断"这活儿要动手"时，通过它的 delegation 协议把任务交�
 **1. 安装插件**
 
 ```sh
-git clone https://github.com/YOUR_GITHUB/dsh-moss-live-voice.git ~/dsh-moss-live-voice
+git clone https://github.com/lllkkkai/dsh-moss-live-voice.git ~/dsh-moss-live-voice
 ```
 
 然后在 DSH 里对 Agent 说一句（或直接调用工具）：

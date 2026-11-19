@@ -14,13 +14,13 @@
     "speech",
     "moss"
   ],
-  "homepage": "https://github.com/YOUR_GITHUB/dsh-moss-live-voice#readme",
+  "homepage": "https://github.com/lllkkkai/dsh-moss-live-voice#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB/dsh-moss-live-voice.git"
+    "url": "git+https://github.com/lllkkkai/dsh-moss-live-voice.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB/dsh-moss-live-voice/issues"
+    "url": "https://github.com/lllkkkai/dsh-moss-live-voice/issues"
   },
   "engines": {
     "dsh": ">=0.2.1-rc.2 <0.3.0",
